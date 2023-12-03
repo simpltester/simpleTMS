@@ -1,0 +1,17 @@
+{
+    "id" : "AT-1",
+    "author": "Pupkin",
+    "version": 1,
+    "create_time": 123456675.0,
+    "update_time": 123456.0,
+    "type": "checklist",
+    "test": {
+        "pre-conditions": "Установить ПО",
+        "steps": [
+            {"step_1": "сдлелать то-то"},
+            {"step_2": "сдлелать то-то"},
+            {"step_3": "сдлелать то-то"}
+        ],
+        "post-conditions": "что сделать после теста"
+    }
+}

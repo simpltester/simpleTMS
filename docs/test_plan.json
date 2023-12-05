@@ -1,0 +1,43 @@
+{
+    "id" : "P-1",
+    "author": "Pupkin",
+    "version": 1,
+    "create_time": 123456675.0,
+    "update_time": 123456.0,
+    "description": "Описание тест-плана",
+    "assigned": "Sutkin",
+    "plan_start_date": 123456675.0,
+    "plan_end_date": 123456675.0,
+    "actually_start_date": 123456675.0,
+    "actually_end_date": 123456675.0,
+    "status": "draft",
+    "tests": [
+            {"test_suite_id": [
+                {
+                    "test_id": "AT-1",
+                    "assigned": "Tester-1",
+                    "status": "in_progress"
+                },
+                {
+                    "test_id": "AT-2",
+                    "assigned": "Tester-1",
+                    "status": "passed"
+                },
+                {
+                    "test_id": "AT-3",
+                    "assigned": "Tester-2",
+                    "status": "failed"
+                }
+            ]}, 
+            {
+                "test_id": "AT-145",
+                "assigned": "Tester-1",
+                "status": "skipped"
+            },
+            {
+                "test_id": "AT-147",
+                "assigned": "Tester-1",
+                "status": "passed"
+            }],
+    "comment": ""
+}

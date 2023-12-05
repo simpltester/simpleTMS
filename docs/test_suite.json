@@ -4,6 +4,7 @@
     "version": 1,
     "create_time": 123456675.0,
     "update_time": 123456.0,
+    "description": "Описание тестового набора",
     "tests": [
             "AT-1", 
             "AT-2", 

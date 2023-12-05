@@ -1,0 +1,34 @@
+{
+    "id": "run_AT-1",
+    "test_id" : "AT-1",
+    "tester": "Pupkin",
+    "create_time": 123456675.0,
+    "end_time": 123456.0,
+    "type": "testcase",
+    "status": "draft",
+    "test": {
+        "pre-conditions": "Установить ПО",
+        "steps": [
+            {"step_1": {
+                "action": "Что-то сдлелать",
+                "expected": "Что ожидаем увидеть",
+                "result": "Что увидели",
+                "status": "passed"}
+            },
+            {"step_2": {
+                "action": "Что-то сдлелать",
+                "expected": "Что ожидаем увидеть",
+                "result": "Что увидели",
+                "status": "passed"}
+            },
+            {"step_3": {
+                "action": "Что-то сдлелать",
+                "expected": "Что ожидаем увидеть",
+                "result": "Что увидели",
+                "status": "passed"}
+            }
+        ],
+        "post-conditions": "что сделать после теста"
+    },
+    "comment": "Итог теста"
+}
